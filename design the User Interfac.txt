@@ -1,0 +1,28 @@
+<!-- First, design the User Interface. It can be done using HTML and CSS. Here is an example: -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <form>
+        Amount: <input type="text" id="amount">
+        From: <select id="from">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="INR">INR</option>
+        </select>
+        To: <select id="to">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="INR">INR</option>
+        </select>
+        <button type="button" onclick="convertCurrency()">Convert</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
